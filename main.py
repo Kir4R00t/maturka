@@ -12,7 +12,7 @@ for line in file1:
 for line in file2:
     liczby2.append(line.strip())
 
-# Zamiana list na dwuwymiarową tablice 
+# Zamiana list na dwuwymiarową tablice i posortowanie
 
 for i in range(len(liczby1)):
     liczby1[i] = liczby1[i].split()
