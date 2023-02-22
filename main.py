@@ -36,8 +36,11 @@ for i in range(len(liczby1)):
             b += 1
     liczby_ale_posortowane += liczby1[i][a:]
     liczby_ale_posortowane += liczby2[i][b:]
-        
-print(liczby_ale_posortowane)
+
+for i, liczba in enumerate(liczby_ale_posortowane):
+    print(liczba, end=" ")
+    if (i+1) % 10 == 0:
+        print("\n", end="")
 
 file1.close()
 file2.close()
