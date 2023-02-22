@@ -38,17 +38,6 @@ for i in range(len(liczby1)):
     liczby_ale_posortowane += liczby2[i][b:]
         
 print(liczby_ale_posortowane)
-'''
-for i in range(1000):
-    for j in range(10):
-        if liczby1[i][j] <= liczby2[i][j]:
-            liczby_ale_posortowane.append(liczby1[i][j])
-            liczby1[i].remove([j])
-        elif liczby1[i][j] >= liczby2[i][j]:
-            liczby_ale_posortowane.append(liczby2[i][j])
-            liczby2[i].remove([j])
 
-print(liczby_ale_posortowane)
-'''
 file1.close()
 file2.close()
